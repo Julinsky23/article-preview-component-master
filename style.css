@@ -17,7 +17,7 @@ body{
 
 .card{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     margin: 250px auto;
     overflow: hidden;
     background-color: var(--light-grayish-blue);
@@ -25,4 +25,46 @@ body{
     height: 440px;
     border-radius: 10px;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    font-size: 23px;
+    color: var(--very-dark-grayish-blue);
+}
 
+.paragraph{
+    color: var(--desaturated-dark-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+}
+
+.avatar-information{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto;
+    color: var(--very-dark-grayish-blue);
+    font-weight: bold;
+}
+
+
+.avatar-information span{
+    color: var(--grayish-blue);
+}
+
+.cicle-pic{
+    border-radius: 50%;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
